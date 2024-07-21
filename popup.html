@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>F1 Standings</title>
+  <link rel="stylesheet" href="popup.css">
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="standings">
+    <h1>F1 Standings</h1>
+    <div id="button-container">
+      <button id="driver-button">Show Drivers</button>
+      <button id="constructor-button">Show Constructors</button>
+    </div>
+    <div id="driver-standings" class="standings">
+      <h2>Driver Standings</h2>
+      <ul id="driver-list"></ul>
+    </div>
+    <div id="constructor-standings" class="standings" style="display: none;">
+      <h2>Constructor Standings</h2>
+      <ul id="constructor-list"></ul>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
